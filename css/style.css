@@ -231,6 +231,22 @@ main {
   background-repeat: no-repeat;
 }
 
+.currency-table--date{
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding:8px;
+  background-color: var(--soft-orange);
+  border-radius: 8px;
+}
+
+.currency-table--date p{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  color: var(--warm-black);
+}
 .main-commission-table{
   width: 70%;
   min-width: 235px;
@@ -288,4 +304,21 @@ main {
   font-weight: normal;
   line-height: 1.7rem;
   color: #757575;
+}
+
+.commission-table--date{
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding:8px;
+  background-color: var(--soft-blue);
+  border-radius: 8px;
+}
+
+.commission-table--date p{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  color: var(--warm-black);
 }
