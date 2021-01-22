@@ -94,12 +94,12 @@ header img {
   color: var(--black);
 }
 
-.header-button span{
-    display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    background-image: url('../assets/icons/down-arrow.svg');
+.header-button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url("../assets/icons/down-arrow.svg");
 }
 
 main {
@@ -116,25 +116,25 @@ main {
   text-align: center;
 }
 
-.main-exchange-container--title{
+.main-exchange-container--title {
   width: 90%;
   min-width: 288px;
   max-width: 900px;
   margin: 0 auto;
 }
 
-.main-exchange-container .backgroundImg{
+.main-exchange-container .backgroundImg {
   width: 200px;
   height: 200px;
   margin: 0 auto;
-  margin-bottom:50px ;
+  margin-bottom: 50px;
   background-image: url("../assets/img/Bitcoin.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.main-exchange-container h2{
+.main-exchange-container h2 {
   margin-bottom: 30px;
   font-size: 2.6rem;
   font-weight: bold;
@@ -142,7 +142,7 @@ main {
   color: var(--black);
 }
 
-.main-exchange-container p{
+.main-exchange-container p {
   margin-bottom: 30px;
   font-size: 1.4rem;
   font-weight: 500;
@@ -150,7 +150,7 @@ main {
   color: #757575;
 }
 
-.main-currency-table{
+.main-currency-table {
   width: 70%;
   min-width: 235px;
   max-width: 500px;
@@ -175,7 +175,7 @@ main {
   margin: 0 auto;
 }
 
-.currency-table--container table{
+.currency-table--container table {
   width: 100%;
   height: 100%;
 }
@@ -202,52 +202,52 @@ main {
   border-radius: 0 0 15px 0;
 }
 
-.currency-table--container .table__right{
+.currency-table--container .table__right {
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.7rem;
   color: #757575;
 }
 
-.currency-table--container .down{
+.currency-table--container .down {
   display: inline-block;
   width: 15px;
   height: 15px;
   margin-left: 10px;
-  background-image: url('../assets/icons/trending-down.svg');
+  background-image: url("../assets/icons/trending-down.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.currency-table--container .up{
+.currency-table--container .up {
   display: inline-block;
   width: 15px;
   height: 15px;
   margin-left: 10px;
-  background-image: url('../assets/icons/trending-up.svg');
+  background-image: url("../assets/icons/trending-up.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.currency-table--date{
+.currency-table--date {
   width: 190px;
   height: 30px;
   margin: 0 auto;
   margin-top: 15px;
-  padding:8px;
+  padding: 8px;
   background-color: var(--soft-orange);
   border-radius: 8px;
 }
 
-.currency-table--date p{
+.currency-table--date p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-weight: 300;
   color: var(--warm-black);
 }
-.main-commission-table{
+.main-commission-table {
   width: 70%;
   min-width: 235px;
   max-width: 500px;
@@ -272,7 +272,7 @@ main {
   margin: 0 auto;
 }
 
-.commission-table--container table{
+.commission-table--container table {
   width: 100%;
   height: 100%;
 }
@@ -299,26 +299,69 @@ main {
   border-radius: 0 0 15px 0;
 }
 
-.commission-table--container .table__right{
+.commission-table--container .table__right {
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.7rem;
   color: #757575;
 }
 
-.commission-table--date{
+.commission-table--date {
   width: 190px;
   height: 30px;
   margin: 0 auto;
   margin-top: 15px;
-  padding:8px;
+  padding: 8px;
   background-color: var(--soft-blue);
   border-radius: 8px;
 }
 
-.commission-table--date p{
+.commission-table--date p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-weight: 300;
   color: var(--warm-black);
+}
+
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+
+.product-detail--batata-logo {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  background-image: url(../assets/icons/batataa.svg);
+  top: -10px;
+  left: calc(50% - 20px);
+}
+
+.product-detail--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.product-detail--title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.product-detail--title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
